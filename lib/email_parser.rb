@@ -8,6 +8,7 @@ class EmailAddressParser
   end
   
   def parse
+    binding.pry
     emails.join(",")
   end
 end
