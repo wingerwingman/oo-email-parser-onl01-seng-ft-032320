@@ -1,15 +1,15 @@
 require "pry"
 class EmailAddressParser
   attr_accessor :email
-  @list = []
+
   
   def initialize(emails)
-    @list = emails
+    @email = emails
   end
   
   def parse
     # binding.pry
-    email_array = @list.split(/[,]/).uniq
+    email_array = @email.split(/[,]/).uniq
     email_array.reject! {|element| element.empty?}
     email_array
   end
