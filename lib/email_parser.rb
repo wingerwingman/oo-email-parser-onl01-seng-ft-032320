@@ -7,7 +7,7 @@ class EmailAddressParser
     emails.parse
   end
   
-  def parse(emails)
+  def parse
     emails.split(" ")
   end
 end
