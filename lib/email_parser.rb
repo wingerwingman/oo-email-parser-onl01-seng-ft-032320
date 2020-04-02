@@ -1,7 +1,7 @@
 require "pry"
 class EmailAddressParser
   attr_accessor :emails
-  @email = []
+  @emails = []
   
   def initialize(emails)
     binding.pry
