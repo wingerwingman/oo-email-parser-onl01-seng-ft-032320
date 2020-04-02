@@ -4,6 +4,7 @@ class EmailAddressParser
   @email = []
   
   def initialize(emails)
+    binding.pry
     eamils = email_array
     
   end
