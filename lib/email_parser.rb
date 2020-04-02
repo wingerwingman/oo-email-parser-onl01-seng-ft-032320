@@ -9,7 +9,7 @@ class EmailAddressParser
   
   def parse
     # binding.pry
-    @list..split(/[,]/).uniq
+    @list..split(/[,]/)
   end
 end
 
