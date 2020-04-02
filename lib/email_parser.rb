@@ -9,8 +9,9 @@ class EmailAddressParser
   
   def parse
     # binding.pry
-    @list.split(/[,]/)
-    @list.reject! {|element| element.empty?}
+    email_array = @list.split(/[,]/)
+    @list = email_array.reject! {|element| element.empty?}
+    @list
   end
 end
 
