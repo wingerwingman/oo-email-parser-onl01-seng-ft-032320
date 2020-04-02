@@ -5,7 +5,7 @@ class EmailAddressParser
   
   def initialize(emails)
     # binding.pry
-    emails.split(" ")
+    emails.split(" ").join()
     
   end
 end
