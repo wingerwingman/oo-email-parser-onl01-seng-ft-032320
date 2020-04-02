@@ -9,7 +9,7 @@ class EmailAddressParser
   
   def parse
     # binding.pry
-    email_array = @list.split(/[,]/)
+    email_array = @list.split(/[,]/).uniq
     email_array.reject! {|element| element.empty?}
     email_array
   end
