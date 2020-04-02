@@ -9,7 +9,7 @@ class EmailAddressParser
   
   def parse
     binding.pry
-    @list.
+    @list.join(" ")
   end
 end
 
