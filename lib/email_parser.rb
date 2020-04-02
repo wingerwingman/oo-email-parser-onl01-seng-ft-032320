@@ -1,6 +1,6 @@
 require "pry"
 class EmailAddressParser
-  attr_accessor :emails
+  attr_accessor :email
   @list = []
   
   def initialize(emails)
