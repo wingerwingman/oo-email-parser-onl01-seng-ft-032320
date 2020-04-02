@@ -1,7 +1,7 @@
 # Build a class EmailParser that accepts a string of unformatted 
-class EmailParser
+class EmailAddressParser
   attr_accessor :emails
-  def parse(emails)
+  def EmailParse(emails)
     emails.split(" ")
   end
 end
