@@ -1,9 +1,10 @@
-# Build a class EmailParser that accepts a string of unformatted 
+require "pry"
 class EmailAddressParser
   attr_accessor :emails
   
   @emails = []
-  def EmailParse(emails)
+  def EmailParse(email_addresses)
+    binding.pry
     emails.parse
   end
 end
