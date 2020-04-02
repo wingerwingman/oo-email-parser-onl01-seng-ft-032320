@@ -1,9 +1,10 @@
 require "pry"
 class EmailAddressParser
   attr_accessor :emails
+  @list = []
   
   def initialize(emails)
-    emails.split(" ")
+    @list = emails.split(" ")
   end
   
   def parse
