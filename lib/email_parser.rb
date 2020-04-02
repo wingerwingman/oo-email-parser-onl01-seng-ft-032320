@@ -9,7 +9,8 @@ class EmailAddressParser
   
   def parse
     # binding.pry
-    @list.split(/[,]/).join()
+    @list.split(/[,]/)
+    @list.reject! {|element| element.empty?}
   end
 end
 
