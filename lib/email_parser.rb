@@ -4,13 +4,11 @@ class EmailAddressParser
   @emails = []
   
   def initialize(emails)
-    # binding.pry
-    emails.split(" ")
+    emails.parse
   end
   
   def parse(emails)
-    emails.join("")
-    @emails
+    emails.split(" ")
   end
 end
 
