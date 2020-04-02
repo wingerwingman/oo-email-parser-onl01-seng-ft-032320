@@ -5,7 +5,7 @@ class EmailAddressParser
   @emails = []
   def EmailParse(email_addresses)
     binding.pry
-    emails.parse
+    
   end
 end
 
