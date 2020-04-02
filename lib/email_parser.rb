@@ -1,10 +1,10 @@
 require "pry"
 class EmailAddressParser
-  attr_accessor :email
+  attr_accessor :emails
+  @email = []
   
-  @emails = []
-  def EmailParse(email_addresses)
-    eamil_addresses.read
+  def initialize(emails)
+    eamils = email_array
     
   end
 end
